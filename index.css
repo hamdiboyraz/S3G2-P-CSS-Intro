@@ -1,0 +1,114 @@
+* {
+  font-family: "Roboto Mono", monospace;
+  font-size: 12px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+}
+
+header,
+footer {
+  text-align: center;
+}
+nav a {
+  display: inline-block;
+  border-radius: 10px;
+  color: white;
+  background: #5ed3eb;
+  width: 10%;
+  padding: 10px 20px;
+  /* margin: 2% 10%; */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+}
+
+nav a:nth-child(2) {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+nav a:first-child {
+  background: #ff764e;
+  /* margin: 2px 20px; */
+  padding: 5px 20px;
+  text-align: center;
+}
+
+nav a:last-child {
+  background: #ffcd69;
+  /* margin: 2px; */
+}
+
+main div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main_image {
+  width: 26%;
+}
+
+.main_image img {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  border-radius: 50%;
+  display: block;
+}
+
+.main_text {
+  width: 50%;
+  padding: 10%;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Chelsea Market", cursive;
+  font-size: 2rem;
+}
+
+.sec-box {
+  background-color: #f9e7dc;
+  padding: 0 10px;
+  text-align: center;
+}
+
+#props {
+  width: 40%;
+  margin: 3% auto;
+  text-align: center;
+}
+
+#props img {
+  width: 30%;
+  margin: auto;
+}
+
+#props p {
+  width: 50%;
+  margin: auto;
+}
+
+#props span {
+  font-weight: bold;
+}
+
+footer div {
+  background: url("assets/footer_img.jpg");
+  height: 200px;
+  width: 100%;
+}
+
+footer {
+  background: #f9e7dc;
+}
